@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #eff6ff;
+}
+.App {
+  width: 60%;
+  background-color: #60a5fa;
+  margin: auto;
+}
+.contents {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding-bottom: 100px;
+  margin: auto;
+}
+input {
+  border: 2px solid black;
+}
+button {
+  border-radius: 5px;
+  width: 75px;
+  margin: auto;
+}
+table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  height: 25px;
+}
+td {
+  width: 40px;
+}
+thead {
+  text-align: center;
+}
